@@ -1,0 +1,28 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfplan
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+.terraformrc
+terraform.rc
+
+# Sensitive Files / Documentation (your specific additions)
+Document1.docx
+access_keys.txt
+
+# Local system files (common for Windows/macOS)
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files (common ones, feel free to remove if not needed)
+.vscode/
+.idea/
+*.swp
+*~
+.editorconfig
+
